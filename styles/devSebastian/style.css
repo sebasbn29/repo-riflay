@@ -1,7 +1,10 @@
 :root {
+    --colorblanco: #ffffff;
+    --colornegro: #000000;
     --colorgris: #5B5B5B;
     --colorgrisclaro: #D9D9D9;
     --colorrojo: #F43053;
+    --colorazuloscuro: #2E3E4B;
     --fuente_subtitulofont-family: 'IBM Plex Sans Thai', sans-serif;
 }
 * {
@@ -64,7 +67,7 @@ nav {
 .contenedor_anuncio {
     box-sizing: border-box;
     background-color: var(--colorgrisclaro);
-    height: 55vh;
+    height: 35vh;
     margin: 30px;
     display: flex;
     flex-flow: wrap;
@@ -77,6 +80,15 @@ nav {
     height: 40%;
     margin: 20px;
 }
+.informacion {
+    background-color: var(--colorazuloscuro);
+    height: 21vh;
+}
+.texto_info1, .texto_info2 {
+    color: var(--colorblanco);
+    display: flex;
+    
+}
 .seccion_categorias {
     height: 28vh;
 }
@@ -87,7 +99,7 @@ nav {
     font-family: var(--fuente_subtitulofont-family);
     font-weight:lighter;
     font-size:inherit;
-    padding: 3px;
+    padding: 5px;
 }
 .contenedor_categorias {
     display: flex;
